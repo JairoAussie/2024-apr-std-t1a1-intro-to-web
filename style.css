@@ -1,34 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 h1{
     color: cornflowerblue;
     background-color: green;
 }
 
+h2 {
+    color: red;
+    background-color: darkseagreen;
+}
 
+/* article > p {
+    font-size: 25px;
+} */
 
+.article_p {
+    font-size: 1.5rem;
+}
 
+#footer_p {
+    color: yellow;
+    background-color: black;
+}
+li {
+    color: red;
+    background-color: tan;
+}
 
+li:nth-child(2n) {
+    color: black;
+    background-color: darkseagreen;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-h1{
-    color: #5ccbe4
+img {
+    max-width: 100vw;
 }
